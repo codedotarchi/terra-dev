@@ -1,0 +1,48 @@
+.main-tab-bar {
+    height: 30px;
+    cursor: pointer;
+    
+}
+
+.main-tab-link {
+    background-color: #1E1E1E;
+    color: white;
+    float: left;
+    /* border: none; */
+    border-style: solid;
+    border-color: rgb(51, 51, 51);
+    border-width: 2px;
+
+    outline: none;
+    cursor: pointer;
+    padding: auto auto;
+    font-size: 12px;
+    /* width: 20%; */
+    border-radius: 0;
+    margin: 0;
+}
+
+.main-tab-link.active {
+    background-color: rgb(51, 51, 51);
+}
+
+.main-tab-link.active:hover {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    cursor: default;
+
+}
+
+.main-tab-link:hover {
+    background-color: #1E1E1E;
+    color:#1EB4F0;
+    
+}
+
+.main-tab-content {
+      display: none;
+}
+
+.main-tab-content.active {
+    display: block;
+}

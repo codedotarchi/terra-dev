@@ -1,0 +1,189 @@
+/* Some CSS styling */
+#sketchpadapp {
+    /* Prevent nearby text being highlighted when accidentally dragging mouse outside confines of the canvas */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+#sketchpad {
+    float:left;
+    border:2px solid #888;
+    border-radius:4px;
+    position:relative; /* Necessary for correct mouse co-ords in Firefox */
+}
+
+
+.p2d-container {
+    float: left;
+    width: 916px;
+    height: 802px;
+    border-width: 1px;
+    border-color:rgb(51, 51, 51);
+    border-style: solid;
+}
+
+.p2d-toolbar-file-selector {
+    cursor: pointer;
+    background-color: #1e1e1e;
+
+    height: 2%;
+    width:100%;
+
+    /* border-bottom-width: 1px;
+    border-color:rgb(51, 51, 51);
+    border-style: solid; */
+}
+
+.p2d-file-selector-button {
+    background-color: #1E1E1E;
+    color: white;
+    float: left;
+    /* border: none; */
+    border-style: solid;
+    border-color: rgb(51, 51, 51);
+    border-width: 1px;
+
+    outline: none;
+    cursor: pointer;
+    text-align: left;
+    /* padding: auto auto; */
+    font-size: 10px;
+    width: 20%;
+    border-radius: 0;
+    margin: 0;
+}
+
+.p2d-file-selector-button:hover {
+    background-color: #1E1E1E;
+    color:#1EB4F0;
+    
+}
+
+.p2d-file-selector-button.active {
+    background-color: rgb(51, 51, 51);
+    cursor: default;
+}
+
+.p2d-file-selector-button.active:hover {
+    color:white;
+
+}
+
+/* url('../icon/painter2d/paint-brush-solid.cur') */
+
+.p2d-canvas {
+    /* position: relative;
+    top: 0px;
+    left: 0px;
+    right: 50px; */
+    border-style: solid;
+    border-color: rgb(51, 51, 51);
+    border-width: 1px;
+
+    width: 100%;
+    height: 96.75%;
+    cursor: crosshair;
+    display: none;
+}
+
+.p2d-canvas.active {
+    display: block;
+}
+
+.p2d-ui-toolbar-top {
+    /* position: relative;
+    top: -850px;
+    left: -50px;
+    right: 50px; */
+
+    float:left;
+
+    width: 100%;
+    height:40px;
+
+    background-color: rgb(51, 51, 51);
+    cursor: default;
+}
+
+.p2d-ui-toolbar-top a {
+    display: inline-block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    vertical-align: center;
+    padding: 12px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: #E6E6E6; /* White text color */
+    font-size: 18px; /* Increased font-size */
+}
+
+.p2d-ui-toolbar-side {
+    float: left;
+    width: 42px;
+    height: 804px;
+    background-color: rgb(51, 51, 51);
+    cursor: default;
+}
+
+.p2d-ui-toolbar-side a {
+    display: inline-block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 12px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: #E6E6E6; /* White text color */
+    font-size: 18px; /* Increased font-size */
+}
+
+.p2d-ui-toolbar-option {
+    float:left;
+    width: 198px;
+    height: 804px;
+
+    background-color: rgb(51, 51, 51);
+
+}
+
+.p2d-ui-toolbar-bottom {
+    clear: both;
+    background-color: rgb(51, 51, 51);
+    height: 20px;
+    width: 100%;
+}
+
+.p2d-ui-tool-blank-horz a {
+    display: inline-block;
+    width:20px;
+}
+
+.p2d-ui-tool-blank-vert a {
+    display: block;
+    width:100%;
+    height: 20px;
+}
+
+.p2d-ui-tool-active {
+    background-color: #1EB4F0; /* Add a hover color */
+  }
+
+.p2d-ui-color-active {
+    background-color: #777 /* Add a hover color */
+  }
+
+.p2d-ui-tool-active:hover {
+    color: #E6E6E6;
+}
+
+.p2d-color-btn:hover {
+    background-color: rgb(68, 68, 68);
+}
+
+.p2d-color-btn.active {
+    background-color: #777;
+}
+
+.p2d-color-btn.active:hover {
+    background-color: #777;
+}

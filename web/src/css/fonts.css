@@ -1,0 +1,24 @@
+/*  Font Stylesheet for Terra App   */
+/*  Noah Pitts -- 2/23/2019         */
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro|Source+Serif+Pro');
+
+/*  font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Source Serif Pro', serif;     */
+
+.code {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.font-sans {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.font-code {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.font-serif {
+    font-family: 'Source Serif Pro', serif;
+}

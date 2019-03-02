@@ -1,0 +1,39 @@
+/* Index Stylesheet for Terra App */
+/* Noah Pitts -- 2/20/2019 */
+
+/* @charset "utf-8"; */
+
+
+/* Colors Scheme
+
+Dark Gray: #1E1E1E;
+Gray: #6e6e6e;
+White: #E6E6E6;
+
+Blue: #1EB4F0;
+Red: #f01e68;
+Yellow: #f0ca1e;
+
+*/
+
+/* padding/margin: top, right, bottom, left */
+
+@import './fonts.css';
+@import './tags.css';
+
+/* UI */
+@import './ui.navbar.css';
+@import './ui.notify.css';
+@import './ui.splash.css';
+@import './ui.tabs.css';
+@import './ui.modal.css';
+
+/* TOOLS */
+@import './tools.dataCollection.css';
+@import './tools.nodeTraining.css';
+@import './tools.tensorEditor.css';
+@import './tools.inferenceGraph.css';
+@import './tools.modelViewer.css';
+
+/* FOR TESTING */
+@import './test.css'

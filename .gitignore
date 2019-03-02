@@ -1,0 +1,6 @@
+# ignore all node modules
+node_modules
+dist
+docs
+.cache
+test

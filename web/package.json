@@ -1,0 +1,38 @@
+{
+  "name": "terra",
+  "version": "0.0.1",
+  "description": "front-end terra app",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noahpitts/terra.git"
+  },
+  "keywords": [
+    "terrain",
+    "generation",
+    "with",
+    "gans"
+  ],
+  "author": "Noah Pitts",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/noahpitts/terra/issues"
+  },
+  "homepage": "https://github.com/noahpitts/terra#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0"
+  },
+  "dependencies": {
+    "@jaames/iro": "^4.0.1",
+    "@tensorflow/tfjs": "^0.15.3",
+    "three": "^0.101.1"
+  }
+}

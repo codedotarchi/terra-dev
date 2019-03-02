@@ -1,0 +1,21 @@
+{
+    "short_name": "terra",
+    "name": "terra - generative landscapes",
+    "icons": [
+        {
+            "src": "./icon/main/terra-main-white-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "./icon/main/terra-main-white-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "./?source=pwa",
+    "background_color": "#1E1E1E",
+    "display": "standalone",
+    "scope": "/maps/",
+    "theme_color": "#1EB4F0"
+}
